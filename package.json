@@ -1,0 +1,44 @@
+{
+  "name": "medcheck-tools",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "build": "tsc",
+    "clean": "rm -rf coverage node_modules package-lock.json",
+    "watch": "tsc -w",
+    "test": "jest --coverage"
+  },
+  "devDependencies": {
+    "@types/aws-lambda": "8.10.83",
+    "@types/aws-sdk": "2.7.0",
+    "@types/aws4": "1.11.0",
+    "@types/elasticsearch": "5.0.40",
+    "@types/jest": "27.0.2",
+    "@types/lodash.sortby": "4.7.6",
+    "@types/node": "16.9.6",
+    "@types/uuid": "8.3.1",
+    "aws-sdk": "2.993.0",
+    "jest": "27.2.1",
+    "jest-junit": "^13.0.0",
+    "ts-jest": "27.0.5",
+    "ts-node": "10.2.1",
+    "typescript": "4.4.3"
+  },
+  "dependencies": {
+    "@mancho.devs/validations": "1.0.0",
+    "@opensearch-project/opensearch": "1.0.0",
+    "aws4": "1.11.0",
+    "camelcase": "6.2.0",
+    "convert-excel-to-json": "^1.7.0",
+    "dynamodb-stream-elasticsearch": "3.2.2",
+    "fs": "0.0.1-security",
+    "libphonenumber-js": "1.9.34",
+    "lodash": "4.17.21",
+    "moment": "2.29.1",
+    "uuid": "8.3.2"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC"
+}
